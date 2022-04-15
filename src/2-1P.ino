@@ -6,10 +6,10 @@ SYSTEM_THREAD(ENABLED);
 
 void setup()
 {
-	pinMode(LED, OUTPUT);
+  pinMode(LED, OUTPUT);
 }
 
 void loop()
 {
-	Morse::printMorse("Mark", LED);
+  Morse::printMorse("Mark", LED);
 }

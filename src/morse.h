@@ -65,9 +65,9 @@ void Morse::Toggle(const pin_t LED, const int onLengthMillis)
   // On
   digitalWrite(LED, HIGH);
   // Wait
-	delay(onLengthMillis);
+  delay(onLengthMillis);
   // Off
-	digitalWrite(LED, LOW);
+  digitalWrite(LED, LOW);
 }
 
 void Morse::printMorse(const char message[], const pin_t LED)
