@@ -1,3 +1,5 @@
+#include "morse.h"
+
 const pin_t LED = D7;
 
 SYSTEM_THREAD(ENABLED);
@@ -9,11 +11,5 @@ void setup()
 
 void loop()
 {
-	digitalWrite(LED, HIGH);
-  
-	delay(1s);
-  
-	digitalWrite(LED, LOW);
-  
-	delay(1s);
+	Morse::printMorse("Mark", LED);
 }
