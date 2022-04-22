@@ -7,7 +7,6 @@ private:
   static void Toggle(const pin_t LED, const int onLengthMillis);
   
   static String morseLookup(const char character);
-  static char morse[][7];
   
 public:
   static void printMorse(const char message[], const pin_t LED);
