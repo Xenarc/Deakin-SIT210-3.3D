@@ -1,6 +1,6 @@
-# 2-1P
+# 3-3D
 
-A Particle project named 2-1P
+A Particle project named 3-3D
 
 ## Requirements
 
